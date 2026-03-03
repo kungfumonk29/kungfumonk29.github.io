@@ -11,7 +11,7 @@ Posts detected: {{ site.posts | size }}
 {% for post in site.posts %}
 {% if post.category == "reflections" %}
 <div class="list">
-  <a class="item" href="{{ post.url }}">{{ post.title }}</a>
+  <a class="item" href="{{ post.url | relative_url }}">{{ post.title }}</a>
   <div class="meta">{{ post.excerpt }}</div>
 </div>
 {% endif %}
@@ -21,7 +21,7 @@ Posts detected: {{ site.posts | size }}
 {% for post in site.posts %}
 {% if post.category == "writing" %}
 <div class="list">
-  <a class="item" href="{{ post.url }}">{{ post.title }}</a>
+  <a class="item" href="{{ post.url | relative_url }}">{{ post.title }}</a>
   <div class="meta">{{ post.excerpt }}</div>
 </div>
 {% endif %}
