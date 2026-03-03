@@ -102,3 +102,10 @@ p{
   font-size:14px;
   max-width:680px;
 }
+.content p, .content li{
+  max-width: 680px;
+}
+
+.content h1{
+  max-width: 900px;
+}
