@@ -11,5 +11,5 @@ I work at the intersection of consulting and finance, analysing businesses and c
 
 <br>
 
-<a class="button" href="/projects/">View Work</a>
+<a class="button" href="/work/">View Work</a>
 <a class="button" href="/contact/">Contact</a>
