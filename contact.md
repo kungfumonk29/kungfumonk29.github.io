@@ -1,22 +1,51 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
-# Contact
+# Get in Touch
 
-<form action="https://[formspree.io](https://formspree.io/f/xpqjgwwq)/f/YOUR_FORM_ID" method="POST">
+<div class="contact-grid">
 
-<label>Name</label>
-<input type="text" name="name" required>
+  <div class="contact-left">
+    <h2>Contact</h2>
+    <p>
+      For consulting opportunities, strategic discussions, or collaborations,
+      feel free to reach out using the form.
+    </p>
 
-<label>Email</label>
-<input type="email" name="email" required>
+    <p><strong>Current Location</strong><br>
+    Canary Wharf, London</p>
 
-<label>Message</label>
-<textarea name="message" required></textarea>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=Canary+Wharf,+London&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
 
-<br>
-<button class="button" type="submit">Send</button>
+  <div class="contact-right">
+    <form action="https://formspree.io/f/xpqjgwwq" method="POST">
 
-</form>
+      <label>Name</label>
+      <input type="text" name="name" required>
+
+      <label>Company</label>
+      <input type="text" name="company">
+
+      <label>Reason for Contact</label>
+      <input type="text" name="reason">
+
+      <label>Message</label>
+      <textarea name="message" required></textarea>
+
+      <button class="button" type="submit">Send</button>
+
+      <input type="hidden" name="_redirect" value="https://aryamangupta.co/thank-you/">
+
+    </form>
+  </div>
+
+</div>
