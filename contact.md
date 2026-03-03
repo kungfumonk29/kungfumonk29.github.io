@@ -43,9 +43,8 @@ permalink: /contact/
 
       <button class="button" type="submit">Send</button>
 
-      <input type="hidden" name="_redirect" value="https://aryamangupta.co/thank-you/">
-
     </form>
+    
 <script>
   (function () {
     const form = document.getElementById("contactForm");
@@ -68,7 +67,12 @@ permalink: /contact/
           return;
         }
 
-        alert("Submission failed. Please try again.");
+        const data = await res.json().catch(() => null);
+        const msg = data && data.errors && data.errors.length
+          ? data.errors.map(x => x.message).join(" | ")
+          : "Submission failed. Please try again.";
+
+        alert(msg);
       } catch (err) {
         alert("Network error. Please try again.");
       }
