@@ -109,3 +109,40 @@ p{
 .content h1{
   max-width: 900px;
 }
+.tiles{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap:18px;
+  margin-top:24px;
+}
+
+.tile{
+  display:block;
+  padding:20px;
+  border-radius:10px;
+  background:#E7E7E7;
+  border:1px solid rgba(0,0,0,0.12);
+  text-decoration:none;
+  color:#000;
+}
+
+.tile-title{
+  font-family:"Raleway",sans-serif;
+  font-weight:800;
+  font-size:16px;
+  margin-bottom:8px;
+}
+
+.tile-sub{
+  font-size:14px;
+  opacity:0.75;
+  max-width: 42ch;
+}
+
+.tile:hover{
+  border-color: rgba(0,0,0,0.28);
+}
+
+@media (max-width: 860px){
+  .tiles{ grid-template-columns: 1fr; }
+}
