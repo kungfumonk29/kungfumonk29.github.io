@@ -202,3 +202,52 @@ p{
   font-size:18px;
   line-height:1.7;
 }
+.contact-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:60px;
+  margin-top:40px;
+}
+
+.contact-left h2{
+  margin-top:0;
+}
+
+.map{
+  margin-top:20px;
+  border:1px solid var(--border);
+  border-radius:8px;
+  overflow:hidden;
+}
+
+.map iframe{
+  width:100%;
+  height:260px;
+  border:0;
+}
+
+.contact-right form{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.contact-right input,
+.contact-right textarea{
+  padding:12px;
+  border-radius:8px;
+  border:1px solid var(--border);
+  font-family:"Merriweather",serif;
+  background:#F2F2F2;
+}
+
+.contact-right textarea{
+  min-height:180px;
+  resize:vertical;
+}
+
+@media (max-width: 860px){
+  .contact-grid{
+    grid-template-columns:1fr;
+  }
+}
