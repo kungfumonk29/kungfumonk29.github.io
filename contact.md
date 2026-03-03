@@ -12,11 +12,13 @@ permalink: /contact/
     <h2>Contact</h2>
     <p>
       For consulting opportunities, strategic discussions, or collaborations,
-      feel free to reach out using the form.
+      please use the form.
     </p>
 
-    <p><strong>Current Location</strong><br>
-    Canary Wharf, London</p>
+    <p>
+      <strong>Current Location</strong><br>
+      Canary Wharf, London
+    </p>
 
     <div class="map">
       <iframe
@@ -27,7 +29,11 @@ permalink: /contact/
   </div>
 
   <div class="contact-right">
-    <form action="https://formspree.io/f/xpqjgwwq" method="POST">
+
+    <form id="contactForm">
+
+      <!-- Honeypot field (anti-spam) -->
+      <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
 
       <label>Name</label>
       <input type="text" name="name" required>
@@ -44,38 +50,40 @@ permalink: /contact/
       <button class="button" type="submit">Send</button>
 
     </form>
-    
+
+  </div>
+
+</div>
+
 <script>
-  (function () {
-    const form = document.getElementById("contactForm");
-    if (!form) return;
+(function () {
+  const form = document.getElementById("contactForm");
+  if (!form) return;
 
-    form.addEventListener("submit", async function (e) {
-      e.preventDefault();
+  const ENDPOINT = "https://billowing-dew-f772.aryaman-gupta.workers.dev/contact";
 
-      const formData = new FormData(form);
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
 
-      try {
-        const res = await fetch(form.action, {
-          method: "POST",
-          body: formData,
-          headers: { "Accept": "application/json" }
-        });
+    const payload = Object.fromEntries(new FormData(form).entries());
 
-        if (res.ok) {
-          window.location.href = "/thank-you/";
-          return;
-        }
+    try {
+      const res = await fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
 
-        const data = await res.json().catch(() => null);
-        const msg = data && data.errors && data.errors.length
-          ? data.errors.map(x => x.message).join(" | ")
-          : "Submission failed. Please try again.";
-
-        alert(msg);
-      } catch (err) {
-        alert("Network error. Please try again.");
+      if (res.ok) {
+        window.location.href = "/thank-you/";
+        return;
       }
-    });
-  })();
+
+      const text = await res.text().catch(() => "");
+      alert("Failed to send. " + (text || "Please try again."));
+    } catch (err) {
+      alert("Network error. Please try again.");
+    }
+  });
+})();
 </script>
