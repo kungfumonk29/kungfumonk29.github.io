@@ -5,7 +5,7 @@ description: Personal reflections and selected writing across finance and strate
 ---
 
 # Writing
-
+Posts detected: {{ site.posts | size }}
 ## Personal reflections
 
 {% for post in site.posts %}
