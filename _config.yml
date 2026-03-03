@@ -8,3 +8,4 @@ plugins:
   - jekyll-sitemap
 
 permalink: pretty
+permalink: /writing/:title/
