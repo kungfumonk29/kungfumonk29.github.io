@@ -6,9 +6,14 @@ permalink: /work/consulting/
 
 # Consulting
 
-Add 3 to 8 items. Keep each to 2 lines.
+Selected engagements across strategy, growth and operating model transformation.
 
 <div class="list">
-  <span class="item">Title of piece</span>
-  <div class="meta">One-line description. Add link when ready.</div>
+  <div class="item">Retail Bank Growth Strategy</div>
+  <div class="meta">Designed multi-year sales optimisation roadmap and customer economics model.</div>
+</div>
+
+<div class="list">
+  <div class="item">Priority Sector Lending Portfolio Expansion</div>
+  <div class="meta">Evaluated scalability of USD 8bn+ portfolio and defined expansion strategy.</div>
 </div>
