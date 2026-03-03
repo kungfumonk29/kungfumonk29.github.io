@@ -10,7 +10,7 @@ title: Writing
 {% if post.categories contains "reflections" %}
 <div class="list">
   <a class="item" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  <div class="meta">{{ post.excerpt }}</div>
+  <div class="meta">{{ post.date | date: "%-d %b %Y" }} · {{ post.excerpt }}</div>
 </div>
 {% endif %}
 {% endfor %}
@@ -20,7 +20,7 @@ title: Writing
 {% if post.categories contains "writing" %}
 <div class="list">
   <a class="item" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  <div class="meta">{{ post.excerpt }}</div>
+  <div class="meta">{{ post.date | date: "%-d %b %Y" }} · {{ post.excerpt }}</div>
 </div>
 {% endif %}
 {% endfor %}
