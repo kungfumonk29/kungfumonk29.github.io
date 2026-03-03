@@ -46,6 +46,32 @@ permalink: /contact/
       <input type="hidden" name="_redirect" value="https://aryamangupta.co/thank-you/">
 
     </form>
-  </div>
+<script>
+  (function () {
+    const form = document.getElementById("contactForm");
+    if (!form) return;
 
-</div>
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+
+      try {
+        const res = await fetch(form.action, {
+          method: "POST",
+          body: formData,
+          headers: { "Accept": "application/json" }
+        });
+
+        if (res.ok) {
+          window.location.href = "/thank-you/";
+          return;
+        }
+
+        alert("Submission failed. Please try again.");
+      } catch (err) {
+        alert("Network error. Please try again.");
+      }
+    });
+  })();
+</script>
