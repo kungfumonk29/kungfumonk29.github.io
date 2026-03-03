@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work
+# Selected Work
 description: Selected work across consulting, financial modelling, and early career.
 permalink: /work/
 ---
