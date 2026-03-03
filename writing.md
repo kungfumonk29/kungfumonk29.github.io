@@ -5,11 +5,9 @@ title: Writing
 
 # Writing
 
-Posts detected: {{ site.posts | size }}
-
 ## Personal reflections
 {% for post in site.posts %}
-{% if post.category == "reflections" %}
+{% if post.categories contains "reflections" %}
 <div class="list">
   <a class="item" href="{{ post.url | relative_url }}">{{ post.title }}</a>
   <div class="meta">{{ post.excerpt }}</div>
@@ -19,7 +17,7 @@ Posts detected: {{ site.posts | size }}
 
 ## Other writing
 {% for post in site.posts %}
-{% if post.category == "writing" %}
+{% if post.categories contains "writing" %}
 <div class="list">
   <a class="item" href="{{ post.url | relative_url }}">{{ post.title }}</a>
   <div class="meta">{{ post.excerpt }}</div>
