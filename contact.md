@@ -32,11 +32,14 @@ permalink: /contact/
 
     <form id="contactForm">
 
-      <!-- Honeypot field (anti-spam) -->
+      <!-- Honeypot (anti-spam) -->
       <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
 
       <label>Name</label>
       <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
 
       <label>Company</label>
       <input type="text" name="company">
@@ -65,6 +68,10 @@ permalink: /contact/
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
+    const button = form.querySelector("button");
+    button.disabled = true;
+    button.textContent = "Sending...";
+
     const payload = Object.fromEntries(new FormData(form).entries());
 
     try {
@@ -81,9 +88,12 @@ permalink: /contact/
 
       const text = await res.text().catch(() => "");
       alert("Failed to send. " + (text || "Please try again."));
-    } catch (err) {
+    } catch {
       alert("Network error. Please try again.");
     }
+
+    button.disabled = false;
+    button.textContent = "Send";
   });
 })();
 </script>
