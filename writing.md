@@ -10,12 +10,11 @@ title: Writing
   <p>Get an email when new writing is published.</p>
 
   <form
-    action="https://buttondown.com/api/emails/embed-subscribe/YOUR_USERNAME"
+    action="https://buttondown.com/api/emails/embed-subscribe/Aryaman29"
     method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.com/YOUR_USERNAME', 'popupwindow')"
     class="embeddable-buttondown-form"
   >
+
     <input
       type="email"
       name="email"
@@ -23,7 +22,11 @@ title: Writing
       placeholder="you@example.com"
       required
     >
-    <button class="button" type="submit">Subscribe</button>
+
+    <button class="button" type="submit">
+      Subscribe
+    </button>
+
   </form>
 </div>
 
