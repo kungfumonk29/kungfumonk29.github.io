@@ -97,6 +97,11 @@ h2{
   margin-bottom:16px;
 }
 
+h3{
+  margin-top:28px;
+  margin-bottom:12px;
+}
+
 p{
   margin:0 0 16px 0;
 }
@@ -108,10 +113,12 @@ p{
   color:#fff;
   padding:10px 16px;
   border-radius:6px;
+  border:none;
   text-decoration:none;
   font-family:"Raleway",sans-serif;
   font-weight:700;
   font-size:14px;
+  cursor:pointer;
 }
 
 .button:hover{
@@ -153,7 +160,7 @@ p{
 }
 
 .tile{
-  transition: all 0.15s ease;
+  transition:all 0.15s ease;
   padding:20px;
   border-radius:10px;
   background:var(--card);
@@ -164,7 +171,7 @@ p{
 
 .tile:hover{
   border-color:var(--border-strong);
-  transform: translateY(-2px);
+  transform:translateY(-2px);
 }
 
 .tile-title{
@@ -180,31 +187,83 @@ p{
   max-width:42ch;
 }
 
-/* Footer */
-.site-footer{
-  padding:40px 0;
-  font-size:13px;
-  color:rgba(0,0,0,0.6);
+/* Writing subscribe box */
+.subscribe-box{
+  margin:28px 0 40px 0;
+  padding:20px;
+  max-width:680px;
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:10px;
 }
 
-/* Responsive */
-@media (max-width: 860px){
-  .tiles{ grid-template-columns:1fr; }
-  h1{ font-size:38px; }
+.subscribe-box h2{
+  margin:0 0 8px 0;
 }
+
+.subscribe-box p{
+  margin:0;
+  max-width:none;
+}
+
+.subscribe-box form{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+
+.subscribe-box input{
+  flex:1 1 280px;
+  min-width:0;
+  padding:12px;
+  border-radius:8px;
+  border:1px solid var(--border);
+  font-family:"Merriweather",serif;
+  font-size:15px;
+  background:#F2F2F2;
+  color:var(--text);
+}
+
+.subscribe-box input:focus{
+  outline:none;
+  border-color:var(--border-strong);
+}
+
+.subscribe-box .button{
+  align-self:stretch;
+}
+
+.embeddable-buttondown-form{
+  max-width:none;
+}
+
+/* Dividers */
 .section-divider{
   height:1px;
   background:rgba(0,0,0,0.08);
   margin:48px 0;
   max-width:680px;
 }
+
+hr{
+  border:0;
+  height:1px;
+  background:rgba(0,0,0,0.08);
+  margin:40px 0;
+  max-width:680px;
+}
+
+/* Intro paragraph after page title */
 .content h1 + p{
   font-size:18px;
   line-height:1.7;
 }
+
+/* Contact page */
 .contact-grid{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:1fr 1fr;
   gap:60px;
   margin-top:40px;
 }
@@ -238,7 +297,15 @@ p{
   border-radius:8px;
   border:1px solid var(--border);
   font-family:"Merriweather",serif;
+  font-size:15px;
   background:#F2F2F2;
+  color:var(--text);
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus{
+  outline:none;
+  border-color:var(--border-strong);
 }
 
 .contact-right textarea{
@@ -246,8 +313,33 @@ p{
   resize:vertical;
 }
 
+/* Footer */
+.site-footer{
+  padding:40px 0;
+  font-size:13px;
+  color:rgba(0,0,0,0.6);
+}
+
+/* Responsive */
 @media (max-width: 860px){
+  .tiles{
+    grid-template-columns:1fr;
+  }
+
   .contact-grid{
     grid-template-columns:1fr;
+    gap:36px;
+  }
+
+  h1{
+    font-size:38px;
+  }
+
+  .subscribe-box form{
+    flex-direction:column;
+  }
+
+  .subscribe-box .button{
+    width:100%;
   }
 }
