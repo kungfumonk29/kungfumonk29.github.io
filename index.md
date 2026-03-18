@@ -28,18 +28,18 @@ This site is part professional portfolio, part writing space, and part record of
 
 ## What I Do
 
-I am interested in work that sits where finance and decision making meet:
+I am interested in work that sits where **finance and decision-making** meet:
 
 - investment analysis  
 - transactions and deal thinking  
 - corporate strategy and value creation  
 - market and business research  
-- long form writing on finance, strategy and business  
+- long-form writing on finance, strategy, and business  
 
-My background combines consulting structure with finance training, which means I tend to approach problems by asking two questions:
+My background combines **consulting structure** with **finance training**, which means I tend to approach problems by asking two questions:
 
-1. What is actually happening here  
-2. What matters economically  
+1. **What is actually happening here?**  
+2. **What matters economically?**
 
 Simple questions. Inconveniently useful.
 
@@ -47,11 +47,11 @@ Simple questions. Inconveniently useful.
 
 ## A Quick Background
 
-Previously, I worked at Ernst & Young India in business consulting, focused on financial services. That experience gave me a front row seat to how institutions think about growth, operations, regulation and performance.
+Previously, I worked at **Ernst & Young India** in business consulting, focused on financial services. That experience gave me a front-row seat to how institutions think about growth, operations, regulation, and performance.
 
-Alongside that, I developed a strong interest in investing, valuation and capital allocation, which led me to Cambridge and a more deliberate move toward finance.
+Alongside that, I developed a growing interest in investing, valuation, and capital allocation — which led me to Cambridge and a more deliberate move toward finance.
 
-Broadly, I am interested in businesses, markets, strategic choices and the way good judgement compounds over time.
+Broadly, I am interested in businesses, markets, strategic choices, and the way good judgement compounds over time.
 
 <div class="section-divider"></div>
 
@@ -59,9 +59,9 @@ Broadly, I am interested in businesses, markets, strategic choices and the way g
 
 This website has three purposes.
 
-First, it is a professional home for my work, background and selected projects.  
-Second, it is a place for writing on finance, strategy, business and the occasional reflection.  
-Third, it is a way to build something more personal than a CV and more coherent than a scattered online presence.
+**First**, it is a professional home for my work, background, and selected projects.  
+**Second**, it is a place for writing on finance, strategy, business and the occasional reflection.
+**Third**, it is a way to build something more personal than a CV and more coherent than a scattered internet presence.
 
 So yes, it is a portfolio. But ideally one with a pulse.
 
@@ -70,14 +70,14 @@ So yes, it is a portfolio. But ideally one with a pulse.
 ## Explore
 
 <a class="item" href="/work/">Work</a>  
-<div class="meta">Selected projects, analysis and professional work.</div>
+<div class="meta">Selected projects, analysis, and professional work.</div>
 
 <div class="list">
   <a class="item" href="/writing/">Writing</a>
-  <div class="meta">Essays, notes and reflections on finance, business and ideas.</div>
+  <div class="meta">Essays, notes, and reflections on finance, business, and ideas.</div>
 </div>
 
 <div class="list">
   <a class="item" href="/contact/">Contact</a>
-  <div class="meta">For opportunities, conversations or thoughtful messages.</div>
+  <div class="meta">For opportunities, conversations, or thoughtful messages.</div>
 </div>
