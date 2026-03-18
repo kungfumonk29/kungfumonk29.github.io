@@ -5,18 +5,19 @@ title: Home
 
 <div class="intro">
 
-Finance and strategy professional working across investing, transactions and value creation.
+# Aryaman Gupta
 
-I started out solving growth and performance problems in financial services, and later moved deeper into finance to better understand how businesses make decisions, deploy capital and create value over time.
+Finance and strategy professional with experience across consulting, transactions, and capital allocation.
 
-Most of my work sits at the intersection of strategy, investing and analysis. That usually means breaking down a business, evaluating a decision, or figuring out what actually matters beyond the slide deck version of reality.
+I started out solving growth and performance problems in financial services, then moved deeper into finance to better understand how businesses make decisions, deploy capital, and create value over time.
 
-I have completed the Master of Finance at Cambridge Judge Business School, after working at Ernst & Young in Financial Services Consulting. The work involved strategy, performance improvement and transformation. In practice, a mix of structured thinking, commercial judgement and the occasional glamorous spreadsheet.
+Most of my work sits at the intersection of **strategy, investing, and analysis** — whether that means looking at a business model, evaluating a deal, or thinking through what actually drives long-term outcomes beyond the PowerPoint version of events.
 
-This site is part professional portfolio, part writing space, and part record of what I am thinking about. It is meant to be useful, thoughtful and reasonably well put together, which already gives it an edge over most things built in a hurry.
+I am currently completing the **Master of Finance at Cambridge Judge Business School**, after working at **EY in Financial Services Consulting**, where I advised institutions on strategy, performance improvement, and transformation. In practice, that meant a mix of structured thinking, commercial judgement, and the occasional glamorous spreadsheet.
+
+This site is part professional portfolio, part writing space, and part record of what I am thinking about. It is meant to be useful, thoughtful, and reasonably well put together — which already gives it an edge over most things built in a hurry.
 
 <br>
-
 
 <a class="button" href="/work/">View Work</a>
 <a class="button secondary" href="/contact/">Contact</a>
@@ -59,7 +60,7 @@ Broadly, I am interested in businesses, markets, strategic choices, and the way 
 This website has three purposes.
 
 **First**, it is a professional home for my work, background, and selected projects.  
-**Second**, it is a place for writing on finance, strategy, business and the occasional reflection.
+**Second**, it is a place for writing — on finance, strategy, business, and the occasional reflection.  
 **Third**, it is a way to build something more personal than a CV and more coherent than a scattered internet presence.
 
 So yes, it is a portfolio. But ideally one with a pulse.
