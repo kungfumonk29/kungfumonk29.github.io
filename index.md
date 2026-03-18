@@ -5,8 +5,6 @@ title: Home
 
 <div class="intro">
 
-# Aryaman Gupta
-
 Finance and strategy professional working across investing, transactions and value creation.
 
 I started out solving growth and performance problems in financial services, and later moved deeper into finance to better understand how businesses make decisions, deploy capital and create value over time.
