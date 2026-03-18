@@ -11,7 +11,7 @@ Finance and strategy professional with experience across consulting, transaction
 
 I started out solving growth and performance problems in financial services, then moved deeper into finance to better understand how businesses make decisions, deploy capital, and create value over time.
 
-Most of my work sits at the intersection of **strategy, investing, and analysis** — whether that means looking at a business model, evaluating a deal, or thinking through what actually drives long-term outcomes beyond the PowerPoint version of events.
+Most of my work sits at the intersection of **strategy, investing, and analysis**, whether that means looking at a business model, evaluating a deal, or thinking through what actually drives long-term outcomes beyond the PowerPoint version of events.
 
 I am currently completing the **Master of Finance at Cambridge Judge Business School**, after working at **EY in Financial Services Consulting**, where I advised institutions on strategy, performance improvement, and transformation. In practice, that meant a mix of structured thinking, commercial judgement, and the occasional glamorous spreadsheet.
 
@@ -60,7 +60,7 @@ Broadly, I am interested in businesses, markets, strategic choices, and the way 
 This website has three purposes.
 
 **First**, it is a professional home for my work, background, and selected projects.  
-**Second**, it is a place for writing — on finance, strategy, business, and the occasional reflection.  
+**Second**, it is a place for writing on finance, strategy, business, and the occasional reflection.  
 **Third**, it is a way to build something more personal than a CV and more coherent than a scattered internet presence.
 
 So yes, it is a portfolio. But ideally one with a pulse.
