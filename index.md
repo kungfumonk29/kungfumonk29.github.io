@@ -13,7 +13,7 @@ I started out solving growth and performance problems in financial services, the
 
 Most of my work sits at the intersection of **strategy, investing, and analysis**, whether that means looking at a business model, evaluating a deal, or thinking through what actually drives long-term outcomes beyond the PowerPoint version of events.
 
-I am currently completing the **Master of Finance at Cambridge Judge Business School**, after working at **EY in Financial Services Consulting**, where I advised institutions on strategy, performance improvement, and transformation. In practice, that meant a mix of structured thinking, commercial judgement, and the occasional glamorous spreadsheet.
+I am currently completing the **Master of Finance at Cambridge**, after working at **EY in Financial Services Consulting**, where I advised institutions on strategy, performance improvement, and transformation. In practice, that meant a mix of structured thinking, commercial judgement, and the occasional glamorous spreadsheet.
 
 This site is part professional portfolio, part writing space, and part record of what I am thinking about. It is meant to be useful, thoughtful, and reasonably well put together — which already gives it an edge over most things built in a hurry.
 
@@ -49,7 +49,7 @@ Simple questions. Inconveniently useful.
 
 Previously, I worked at **Ernst & Young India** in business consulting, focused on financial services. That experience gave me a front-row seat to how institutions think about growth, operations, regulation, and performance.
 
-Alongside that, I developed a growing interest in investing, valuation, and capital allocation — which led me to Cambridge and a more deliberate move toward finance.
+Alongside that, I developed a growing interest in investing, valuation, and capital allocation which led me to Cambridge and a more deliberate move toward finance.
 
 Broadly, I am interested in businesses, markets, strategic choices, and the way good judgement compounds over time.
 
