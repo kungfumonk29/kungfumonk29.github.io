@@ -17,6 +17,7 @@ This site is part professional portfolio, part writing space, and part record of
 
 <br>
 
+
 <a class="button" href="/work/">View Work</a>
 <a class="button secondary" href="/contact/">Contact</a>
 
